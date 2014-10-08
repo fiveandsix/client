@@ -1,0 +1,60 @@
+"#list": {
+    left: 0,
+    top: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: Alloy.Globals.Colors.list_background,
+    separatorColor: Alloy.Globals.Colors.list_separator
+}
+
+
+"#defaultListTemplate": {
+    height: "80dp",
+    backgroundColor: 'white',
+    selectedBackgroundColor: '#ADD8E6'
+}
+
+"#item_badge": {
+    top: "15dp",
+    left: "15dp",
+    width: "50dp",
+    height: "50dp",
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+    backgroundColor: Alloy.Globals.Colors.log_list_badge,
+    borderColor: Alloy.Globals.Colors.log_list_badge_border,
+    font: {
+        fontFamily: 'fiveandsix',
+        fontSize: "38dp"
+    }
+}
+
+
+"#item_text": {
+    top: "11dp",
+    left: "80dp",
+    right: "15dp",
+    height: "22dp",
+    font: {
+        fontSize: "18dp",
+        fontWeight: 'bold'
+    }
+}
+
+"#item_date": {
+    bottom: "10dp",
+    right: "10dp",
+    height: "22dp",
+    font: {
+        fontSize: "18dp",
+        fontWeight: 'bold'
+    }
+}
+
+"Label": {
+    font: {
+        fontFamily: 'HelveticaNeue-Light',
+        fontSize: '14dp',
+    },
+    color: '#333333'
+}

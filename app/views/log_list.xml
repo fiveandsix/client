@@ -1,0 +1,14 @@
+<Alloy>
+  <ListView id="list" onItemclick="onListItemClick" defaultItemTemplate="defaultTemplate" visible="false">
+    <Templates>
+      <ItemTemplate name="defaultTemplate" id="defaultListTemplate">                    
+        <Label id="item_badge" bindId="badge" touchEnabled="false"/>
+        <Label id="item_text" bindId="text" touchEnabled="false"/>
+        <Label id="item_date" bindId="date" touchEnabled="false"/>
+      </ItemTemplate>
+    </Templates>
+    <ListSection id="listSection" dataCollection="log">
+      <ListItem template="defaultTemplate" itemId="{id}" badge:text="j" date:text="{date}" text:text="{text}"/>
+    </ListSection>
+  </ListView>
+</Alloy>

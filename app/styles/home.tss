@@ -1,0 +1,7 @@
+"#button_home[platform=ios]": {
+    image: 'menu.png'
+}
+
+"#container": {
+    layout: 'composite'
+}

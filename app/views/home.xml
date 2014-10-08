@@ -1,0 +1,20 @@
+<Alloy>
+  <Window id="container" onAndroid:back="onBack" exitOnClose="true" platform="android">
+    <Require type="view" src="task_list" id="task_list"/>
+    <Require type="view" src="log_list" id="log_list"/>
+  </Window>
+
+  <NavigationWindow id="navigation" platform="ios">
+    <Window id="container" title="Huilo">
+      <LeftNavButton>
+          <Button id="button_home" title="" onClick="onMenuHome"/>
+      </LeftNavButton>
+      <RightNavButton>
+          <Button id="button_refresh" title="" onClick="onRefresh" systemButton="Titanium.UI.iPhone.SystemButton.REFRESH"/>
+      </RightNavButton>
+
+      <Require type="view" src="task_list" id="task_list"/>
+      <Require type="view" src="log_list" id="log_list"/>		
+    </Window>
+  </NavigationWindow>
+</Alloy>

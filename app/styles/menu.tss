@@ -1,0 +1,60 @@
+"#menuUnderlay": {
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    backgroundColor: 'black',
+    opacity: 0.7
+}   
+
+"#menuView": {
+    top: 0,
+    left: "-240dp",
+    bottom: 0,
+    width: "240dp",
+    backgroundColor: Alloy.Globals.Colors.menu_background,
+    layout: "vertical"
+}
+
+".splitter": {
+    width: Titanium.UI.FILL,
+    height: "1dp",
+    backgroundColor: Alloy.Globals.Colors.menu_separator
+}
+
+".item": {
+    height: "50dp",
+    width: Titanium.UI.FILL,
+    layout: "composite"
+}
+
+
+".badge": {
+    left: "10dp",
+    top: "5dp",
+    width: "40dp",
+    height: "40dp",
+    verticalAlignment: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+    font: {
+        fontFamily: 'fiveandsix',
+        fontSize: "24dp"
+    }  
+}
+
+".text": {
+    left: "50dp",
+    right: 0,
+    top: "5dp",
+    height: "40dp",
+    verticalAlignment: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+    font: {
+        fontSize: "18dp"
+    }  
+}
+
+"Label": {
+    font: {
+        fontFamily: 'HelveticaNeue-Light'
+    },
+    color: '#333333'
+}

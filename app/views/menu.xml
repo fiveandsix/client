@@ -1,0 +1,25 @@
+<Alloy>
+    <View id="menuUnderlay" visible="true" onClick="onMenuUnderlayClick"></View>
+    <ScrollView id="menuView" visible="true" onSwipe="onMenuSwipe" scrollType="vertical" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="false">
+      <View id="item_inbox" class="item" onSingletap="onItemInbox">
+        <Label class="badge" touchEnabled="false" text="L('icon_inbox')"/>
+        <Label class="text" touchEnabled="false">Inbox</Label>
+      </View>
+      <View class="splitter"/>
+      <View id="item_todo" class="item" onSingletap="onItemTodo">
+        <Label class="badge" touchEnabled="false" text="L('icon_todo')"/>
+        <Label class="text" touchEnabled="false">Todo</Label>
+      </View>
+      <View class="splitter"/>
+      <View id="item_done" class="item" onSingletap="onItemDone">
+        <Label class="badge" touchEnabled="false" text="L('icon_checked')"/>
+        <Label class="text" touchEnabled="false">Done</Label>
+      </View>
+      <View class="splitter"/>
+      <View id="item_trash" class="item" onSingletap="onItemTrash">
+        <Label class="badge" touchEnabled="false" text="L('icon_trash')"/>
+        <Label class="text" touchEnabled="false">Trash</Label>
+      </View>
+      <View class="splitter"/>
+    </ScrollView>
+</Alloy>

@@ -1,0 +1,93 @@
+"#container": {
+    backgroundColor: 'white',
+    layout: 'compose'
+}
+
+".content": {
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+    layout: 'composite'
+}
+
+".scroll": {
+  left: "10dp",
+  right: "10dp",
+  top: 0,
+  bottom: "65dp",
+  layout: 'vertical'
+}
+
+".title": {
+    width: "100%",
+    touchEnabled: false,
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+    font: {
+        fontFamily: 'HelveticaNeue-Light',
+        fontSize: '24dp',
+        fontWeight: 'semibold'
+    }
+}
+
+".text": {
+    width: "100%",
+    font: {
+        fontFamily: 'HelveticaNeue-Light',
+        fontSize: '14dp',
+        fontWeight: 'semibold'
+    }
+}
+
+".button_container": {
+    left: "10dp",
+    right: "10dp",
+    bottom: "10dp",
+    height: "44dp",
+}
+
+".button": {
+    font: {
+        fontFamily: 'HelveticaNeue-Light',
+        fontSize: '14dp'
+    },
+    width: "100%",
+    height: '44dp',
+    borderRadius:'4dp',
+    borderWidth:'1dp',
+    backgroundColor: '#428bca',
+    borderColor:'#285e8e',
+    color: 'white'
+}
+
+".ok": {
+    backgroundColor: Alloy.Globals.Colors.detail_button_ok_bg,
+    backgroundSelectedColor: Alloy.Globals.Colors.detail_button_ok_bg_selected,
+    borderColor: Alloy.Globals.Colors.detail_button_ok_border
+}
+
+".done": {
+    backgroundColor: Alloy.Globals.Colors.detail_button_done_bg,
+    backgroundSelectedColor: Alloy.Globals.Colors.detail_button_done_bg_selected,
+    borderColor: Alloy.Globals.Colors.detail_button_done_border
+}
+
+".button": {
+    font: {
+        fontFamily: 'HelveticaNeue-Light',
+        fontSize: '14dp'
+    },
+    width: "100%",
+    height: '44dp',
+    borderRadius:'4dp',
+    borderWidth:'1dp',
+    color: 'white'
+}
+
+"Label":{
+    color: '#333333'
+}
+
+"TextArea":{
+    color: '#333333'
+}

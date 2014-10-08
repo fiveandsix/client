@@ -1,0 +1,24 @@
+<Alloy>
+  <Window id="container" onAndroid:back="onBack">
+    <View id="teaser" class="content" visible="true">
+      <ScrollView class="scroll" showVerticalScrollIndicator="true" contentWidth="1" contentHeight="auto">
+        <Label id="teaser_title" class="title"/>
+        <TextArea id="teaser_text" class="text" platform="ios" editable="false" autoLink="Titanium.UI.AUTOLINK_ALL"/>
+        <Label id="teaser_text" class="text" platform="android" autoLink="Titanium.UI.AUTOLINK_ALL"/>
+      </ScrollView>
+      <View class="button_container">
+        <Button class="button ok" onSingletap="onTodo">Действуй!</Button>
+      </View>
+    </View>
+    <View id="todo" visible="false" class="content">
+      <ScrollView class="scroll" showVerticalScrollIndicator="true" contentWidth="1" contentHeight="auto">
+        <Label id="todo_title" class="title"></Label> 
+        <TextArea id="todo_text" class="text" autoLink="Titanium.UI.AUTOLINK_ALL" editable="false" platform="ios"/>
+        <Label id="todo_text" class="text" autoLink="Titanium.UI.AUTOLINK_ALL" platform="android"/>
+      </ScrollView>
+      <View class="button_container">
+        <Button class="button done" onSingletap="onDone">Готово!</Button>
+      </View>
+    </View>
+  </Window>
+</Alloy>

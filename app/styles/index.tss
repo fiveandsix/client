@@ -1,0 +1,7 @@
+"Label": {
+    font: {
+        fontFamily: 'HelveticaNeue-Light',
+        fontSize: '14dp',
+    },
+    color: '#333333'
+}
