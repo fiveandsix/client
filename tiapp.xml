@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>net.fiveandsix.client</id>
-    <name>fiveandsix</name>
+    <name>diyaty</name>
     <version>1.0</version>
     <publisher>fiveandsix</publisher>
     <url>http://www.5and6.net</url>
