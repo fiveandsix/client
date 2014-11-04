@@ -3,7 +3,8 @@
     <Templates>
       <ItemTemplate name="defaultTemplate" id="defaultListTemplate">                    
         <Label id="item_badge" bindId="badge" touchEnabled="false"/>
-        <Label id="item_text" bindId="text" touchEnabled="false"/>
+        <Label platform="android" id="item_text" bindId="text" touchEnabled="false"/>
+        <TextArea platform="ios" id="item_text" bindId="text" touchEnabled="false"/>
         <Label id="item_date" bindId="date" touchEnabled="false"/>
       </ItemTemplate>
     </Templates>

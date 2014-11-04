@@ -3,8 +3,8 @@
       <Templates>
         <ItemTemplate name="defaultTemplate" id="defaultListTemplate">                    
           <Label id="item_badge" bindId="badge" touchEnabled="false"/>
-          <Label id="item_title" bindId="title" touchEnabled="false"/>
-          <!--Label id="item_text" bindId="body" touchEnabled="false"/-->
+          <TextArea id="item_title" bindId="title" platform="ios" editable="false" touchEnabled="false"/>
+          <Label id="item_title" bindId="title" platform="android" touchEnabled="false"/>
         </ItemTemplate>
       </Templates>
       <ListSection id="listSection" dataCollection="tasks" dataFilter="filterList">

@@ -32,11 +32,11 @@
 
 "#item_text": {
     top: "11dp",
+    bottom: "10dp",
     left: "80dp",
     right: "15dp",
-    height: "22dp",
     font: {
-        fontSize: "18dp",
+        fontSize: "14dp",
         fontWeight: 'bold'
     }
 }
