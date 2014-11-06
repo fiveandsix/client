@@ -44,9 +44,9 @@
 "#item_date": {
     bottom: "10dp",
     right: "10dp",
-    height: "22dp",
+    height: "14dp",
     font: {
-        fontSize: "18dp",
+        fontSize: "10dp",
         fontWeight: 'bold'
     }
 }

@@ -41,18 +41,6 @@
     }  
 }
 
-"#item_text": {
-    top: "32dp",
-    left: "80dp",
-    right: "15dp",
-    bottom: "13dp",
-    verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_TOP,    
-    font: {
-        fontSize: "14dp",
-        fontWeightX: 'bold'
-    }  
-}
-
 "Label": {
     font: {
         fontFamily: 'HelveticaNeue-Light',
